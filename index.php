@@ -4,7 +4,7 @@
     require_once('settings.php');
     ?>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <title>Daniel</title>
+    <title><?php echo $website_title?></title>
 </head>
 <body>
         <?php
