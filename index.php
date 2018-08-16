@@ -1,16 +1,37 @@
 <html>
 	<head>
+         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 		<?php 
 				include_once('settings.php');
 		?>
 		<title><?php echo $website_title ?> </title>
 	<head>
 	<body>
-<?php
 
-    include_once('menu.php');
-?>
-    <form class="form-horizontal">
+
+<div class="wrapper">
+    <div class="box header"><?php
+
+        include_once('menu.php');
+        ?></div>
+    <div class="box sidebar"><?php
+
+        include_once('menu.php');
+        ?></div>
+    <div class="box sidebar2">Sidebar 2</div>
+    <div class="box content">Content
+        <br /> More content than we had before so this column is now quite tall.^hier könnte natürlich auch viel mehr stehen deswegen spam ich grad mal etwas text um zu gucken wie die box reagiert lorem dorum döner pita überbacken </div>
+    <div class="box footer">Footer</div>
+</div>
+
+
+
+
+
+
+
+
+<form class="form-horizontal">
         <fieldset>
 
             <!-- Form Name -->
