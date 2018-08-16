@@ -6,8 +6,164 @@
 		<title><?php echo $website_title ?> </title>
 	<head>
 	<body>
-	
-<!-- ANFANG [ALLE FAHRZEUGE] -->
+
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Fahrzeug Hinzufügen</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Hersteller">Hersteller</label>
+                <div class="col-md-4">
+                    <input id="Hersteller" name="Hersteller" placeholder="Volkswagen,BMW,Audi,Mercedes.." class="form-control input-md" required="" type="text">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Modell">Modell</label>
+                <div class="col-md-4">
+                    <input id="Modell" name="Modell" placeholder="Polo,Corsa,Octavia" class="form-control input-md" required="" type="text">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Baujahr">Baujahr</label>
+                <div class="col-md-4">
+                    <input id="Baujahr" name="Baujahr" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="KM">KM-Stand</label>
+                <div class="col-md-4">
+                    <input id="KM" name="KM" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="PS">PS</label>
+                <div class="col-md-4">
+                    <input id="PS" name="PS" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Hubraum">Hubraum</label>
+                <div class="col-md-4">
+                    <input id="Hubraum" name="Hubraum" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Kraftstoffart">Kraftstoffart</label>
+                <div class="col-md-4">
+                    <input id="Kraftstoffart" name="Kraftstoffart" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Getriebeart">Getriebeart</label>
+                <div class="col-md-4">
+                    <input id="Getriebeart" name="Getriebeart" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Schadstoffklasse">Schadstoffklasse</label>
+                <div class="col-md-4">
+                    <input id="Schadstoffklasse" name="Schadstoffklasse" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Erstzulassung">Erstzulassung</label>
+                <div class="col-md-4">
+                    <input id="Erstzulassung" name="Erstzulassung" required="" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Farbe">Farbe</label>
+                <div class="col-md-4">
+                    <input id="Farbe" name="Farbe" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Ausstattung">Ausstattung</label>
+                <div class="col-md-4">
+                    <textarea class="form-control" id="Ausstattung" name="Ausstattung"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Ankauf">Ankauf</label>
+                <div class="col-md-4">
+                    <input id="Ankauf" name="Ankauf" placeholder="" class="form-control input-md" type="text">
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Verkauf">Verkauf</label>
+                <div class="col-md-4">
+                    <input id="Verkauf" name="Verkauf" placeholder="" class="form-control input-md" type="text">
+                </div>
+            </div>
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Position">Position</label>
+                <div class="col-md-4">
+                    <select id="Position" name="Position" class="form-control">
+                        <option value="Verkauf">Verkauf</option>
+                        <option value="Ausschlachtung">Ausschlachtung</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ANFANG [ALLE FAHRZEUGE] -->
 <div style="width:1000px; background:#E6E6FA;border:1px solid black;">
 <center><h3>Alle fahrzeuge</h3><center>
 <hr>
