@@ -11,6 +11,6 @@
             include('menu.php');
         ?>
 
-<h1> Daniel</h1>
+<h1> Hier könnte ihre Werbung stehen</h1>
 </body>
 </html>
