@@ -130,8 +130,14 @@ if ($result->num_rows > 0) {
 	 echo "hersteller: " . $row['Hersteller']. "<br>";
 	 echo "modell: " . $row['Modell']. "<br>";
 	 echo "baujahr: " . $row['Baujahr']. "<br>";
+	 echo "PS: " . $row['PS']. "<br>";
+	 echo "Hubraum: " . $row['Hubraum']. "<br>";
 	 echo "km: " . $row['KM-stand']. "<br>";
+	 echo "Kraftstoffart: " . $row['Kraftstoffart']. "<br>";
+	 echo "Getriebe: " . $row['Getriebeart']. "<br>";
+	 echo "Schadstoffklasse: " . $row['Schadstoffklasse']. "<br>";
 	 echo "ausstatung: " . $row['Ausstattung']. "<br>";
+	 echo "Farbe: " . $row['Farbe']. "<br>";
 	 echo "ankauf: " . $row['Ankauf']. "<br>";
 	 echo "verkauf: " . $row['Verkauf']. "<br>";
 	 echo "position: " . $row['Position']. "<br>";
