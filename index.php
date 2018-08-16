@@ -134,16 +134,19 @@
                     </select>
                 </div>
             </div>
+            <!-- UNTERE LINIE -->
+
+            <hr>
             <div class="form-group">
                 <label class="col-md-4 control-label" for="Defekte_Artikel">Defekte</label>
-                <div class="col-md-4">
+
                     <input id="Defekte" name="Defekte" placeholder="" class="form-control input-md" type="text">
 
-                </div>
+
                 <label class="col-md-4 control-label" for="Defekte_Beschreibung">Beschreibung zum Defekt</label>
-                <div class="col-md-4">
+
                     <textarea class="form-control" id="Defekte_Beschreibung" name="Defekte_Beschreibung"></textarea>
-                </div>
+
             </div>
 
         </fieldset>
