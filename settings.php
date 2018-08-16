@@ -1,6 +1,6 @@
 <?php
 
-$website_title = "Andrej";
+$website_title = "PRYM";
 
 
 

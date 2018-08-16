@@ -6,7 +6,10 @@
 		<title><?php echo $website_title ?> </title>
 	<head>
 	<body>
+<?php
 
+    include_once('menu.php');
+?>
     <form class="form-horizontal">
         <fieldset>
 
