@@ -3,7 +3,6 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -26,7 +25,7 @@
 				include_once('settings.php');
 		?>
 		<title><?php echo $website_title ?> </title>
-	<head>
+	</head>
 	<body>
         <!-- menü band ANFANG-->
         <div class="container-fluid">
@@ -51,9 +50,12 @@
             </div>
             <!-- Information Ende-->
 
-            <!-- MainEnde-->
-
+            <!-- Main ANFANG-->
             <div class="col-md-11">
+
+                <iframe src="raw.php"   style='border:0; width: 100%; height: 100%;'>das ist ein iframe</iframe>
+
+
 
                 <form class="form-horizontal">
                     <fieldset>
@@ -215,9 +217,6 @@ V
 
             </div>
         </div>
-
-
-<br>
 
   
 	</body>
