@@ -5,7 +5,7 @@
     <center><h3>Alle fahrzeuge</h3><center>
             <hr>
             <?php
-
+            include_once('settings.php');
             $sql = "SELECT * FROM fahrzeuge";
             $result = $conn->query($sql);
 
