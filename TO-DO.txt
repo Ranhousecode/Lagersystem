@@ -1,0 +1,1 @@
+fahrzeug_defekt in fahrzeug_ausschlachtung einbauen um zuwissen welche defekte behoben sind
